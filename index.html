@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>
+            Finding Mind
+        </title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <script src="script/script.js"></script>
+    </head>
+
+    <body>
+        <div id="main-content">
+            <div id="logo">
+                <img src="img/logo.JPG">
+            </div>
+
+            <div id="menu">
+                <div id="menu-home" class="menu-item active" onclick="switchSection('menu-home','section-home')">
+                    Home
+                </div>
+                <div id="menu-movie-1" class="menu-item" onclick="switchSection('menu-movie-1','section-movie-1')">
+                    Movie 1
+                </div>
+                <div id="menu-movie-2" class="menu-item" onclick="switchSection('menu-movie-2','section-movie-2')">
+                    Movie 2
+                </div>
+                <div id="menu-movie-3" class="menu-item" onclick="switchSection('menu-movie-3','section-movie-3')">
+                    Movie 3
+                </div>
+                <div id="menu-movie-4" class="menu-item" onclick="switchSection('menu-movie-4','section-movie-4')">
+                    Movie 4
+                </div>
+                <div id="menu-behind-the-scenes" class="menu-item" onclick="switchSection('menu-behind-the-scenes','section-behind-the-scenes')">
+                    Behind The Scenes
+                </div>
+            </div>
+
+            <div id="section-content">
+                <div id="section-home" class="section active">
+                    <p>
+                        [Home text goes here]
+                    </p>
+                </div>
+                <div id="section-movie-1" class="section">
+                    <div class="embeded-video">
+                        <iframe src="https://player.vimeo.com/video/6613463" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <p>
+                            <a href="https://vimeo.com/6613463">
+                            </a>
+                            <p class="movie-title">Movie Title</p>
+                        </p>
+                    </div>
+                </div>
+                <div id="section-movie-2" class="section">
+                    <div class="embeded-video">
+                        <iframe src="https://player.vimeo.com/video/6613463" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <p>
+                            <a href="https://vimeo.com/6613463">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div id="section-movie-3" class="section">
+                    <div class="embeded-video">
+                        <iframe src="https://player.vimeo.com/video/6613463" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <p>
+                            <a href="https://vimeo.com/6613463">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div id="section-movie-4" class="section">
+                    <div class="embeded-video">
+                        <iframe src="https://player.vimeo.com/video/6613463" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <p>
+                            <a href="https://vimeo.com/6613463">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div id="section-behind-the-scenes" class="section">
+                    [Behind the scenes goes here]
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

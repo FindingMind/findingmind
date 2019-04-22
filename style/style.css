@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(61, 59, 59);
+    font-family: "Verdana";
+}
+
+#main-content {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#menu {
+    border-bottom: 1px solid rgb(61, 59, 59);
+    margin-bottom: 3%;
+}
+
+.menu-item {
+    display: inline-block;
+    font-size: 1.2vw;
+    text-align: center;
+    width: 15%;
+}
+
+.menu-item:hover {
+    background-color: rgb(61, 59, 59);
+    color: white;
+    cursor: pointer;
+}
+
+.menu-item.active {
+    background-color: rgb(61, 59, 59);
+    color: white;
+}
+
+#section-content {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.section {
+    visibility: hidden;
+    height: 0px;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.section.active {
+    visibility: visible;
+    height: auto;
+    line-height: normal;
+    overflow: auto;
+}
+
+.section .embeded-video {
+    text-align: center;
+}
+
+.movie-title {
+    font-size: 1.2vw;
+}
