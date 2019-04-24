@@ -1,32 +1,45 @@
 body {
     background-color: rgb(61, 59, 59);
-    font-family: "Verdana";
+    font-family: "Futura";
 }
 
 #main-content {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 98%;
 }
 
 #logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 75%;
 }
 
 #menu {
-    border-bottom: 1px solid rgb(61, 59, 59);
-    margin-bottom: 3%;
+    border-bottom: 2px solid rgb(61, 59, 59);
+    margin-bottom: 1%;
+	margin-left: 2%;
+	margin-right: 2%
 }
 
 .menu-item {
     display: inline-block;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     text-align: center;
-    width: 15%;
+    width: 16.31%;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  padding: 2%;
+
 }
 
 .menu-item:hover {
@@ -41,8 +54,10 @@ body {
 }
 
 #section-content {
+	font-size: 1.5vw;
     margin-left: 3%;
     margin-right: 3%;
+	padding-bottom: 3%;
 }
 
 .section {
@@ -64,5 +79,6 @@ body {
 }
 
 .movie-title {
-    font-size: 1.2vw;
+	font-weight: bold;
+    font-size: 3.0vw;
 }
